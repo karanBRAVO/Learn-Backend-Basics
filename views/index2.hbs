@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Read Operation</title>
+	</head>
+
+	<body>
+		<div>
+			<h1>Fetched Data</h1>
+		</div>
+		<div>
+			{{#each sendData}}
+			<h3>ID: {{this._id}}</h3>
+			<h5>Name:</h5>
+			<p>{{this.name}}</p>
+			<h5>email:</h5>
+			<p>{{this.email}}</p>
+			{{/each}}
+		</div>
+	</body>
+</html>
